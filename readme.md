@@ -1,5 +1,7 @@
 ## 🚗 Car Price Prediction Web App       
 
+![screenshot](image.png)
+
 A simple machine learning web application built with Plotly Dash that predicts the resale price of a used car based on its specifications such as brand, year, mileage, engine size, and other features.       
 
 This project demonstrates how to integrate a trained ML model into an interactive web interface, allowing users to enter car details and instantly get a predicted price.          
