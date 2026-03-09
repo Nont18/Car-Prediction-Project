@@ -190,7 +190,9 @@ def update_output(n_clicks, input1, input2, input3, input4, input5, input6, inpu
 
     return f"Predicted Price: ฿{price:,.2f}"
 
+# if __name__ == "__main__":
+#     app.run(debug=True)
+
+
 if __name__ == "__main__":
-    app.run(debug=True)
-
-
+    app.run(dev_tools_ui=True, debug=True, host="127.0.0.1")
